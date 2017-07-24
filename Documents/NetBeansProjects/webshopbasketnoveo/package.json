@@ -1,0 +1,28 @@
+{
+  "name": "webshopbasket",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Kirill",
+  "contributors": [],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
+  },
+  "description": "Noveo task",
+  "main": "main.js",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "http-server": "^0.9.0",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "license": "ISC"
+}
