@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30.08.2017 15:23:55 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.pojo.Collection" table="collection" catalog="vinyl" optimistic-lock="version">
+        <id name="collectionId" type="java.lang.Integer">
+            <column name="collection_id" />
+            <generator class="identity" />
+        </id>
+        <property name="artist" type="string">
+            <column name="Artist" length="45" />
+        </property>
+        <property name="album" type="string">
+            <column name="Album" />
+        </property>
+        <property name="yearReleaseOriginal" type="string">
+            <column name="Year_release_original" length="12" />
+        </property>
+        <property name="yearRelease" type="string">
+            <column name="Year_release" />
+        </property>
+        <property name="description" type="string">
+            <column name="Description" />
+        </property>
+        <property name="label" type="string">
+            <column name="Label" />
+        </property>
+        <property name="dateBought" type="string">
+            <column name="Date_bought" />
+        </property>
+        <property name="cover" type="string">
+            <column name="Cover" />
+        </property>
+        <property name="genres" type="string">
+            <column name="Genres" />
+        </property>
+    </class>
+</hibernate-mapping>
